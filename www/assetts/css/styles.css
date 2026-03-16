@@ -1,0 +1,114 @@
+:root {
+/* dark theame */
+--color1:#028f23;
+--color2:#6d8287;
+--color3:#f95908;
+--color4:#000000;
+--color5:#c9fae3;
+
+--brow-co:var(--color1);
+--hero:var(--color3);
+--foreground:var(--color4);
+--background:var(--color5);
+}
+
+body{
+    color: var(--foreground);
+    background: var(--background);
+    height: 100%;
+    max-width: 1024px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1024px;
+    
+    
+}
+.container-fluid {
+    max-width: 1024px;
+    
+}
+
+.footer {
+    /* background: #9ff930ef; */
+    border-top-color: #000000;
+    border-top-width: 8px;
+    border-top-style: dotted;
+    height: 60px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1{
+    color: var(--hero);
+}
+
+p {
+    text-wrap: pretty;
+}
+
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: var(--brow-co);
+}
+
+.paragraph {
+    max-width: 50em;
+    text-wrap: pretty;
+    
+}
+
+.lcd-bg-vav {
+  background-color: red;
+}
+
+.box-wrap {
+    max-width: 40rem;
+    background-color: #7fd795;
+    border: 2px solid rgba(54, 104, 4, 0.295);
+    border-radius: 16px;
+    padding-right: 1em;
+    margin-bottom: .5em;
+    
+}
+
+.box-event {
+    padding: 1em;
+    margin: 1em;
+}
+
+.box-title {
+    font-size: large;
+}
+
+.box-par {
+    font-size: small;
+    overflow-wrap:normal;
+}
+
+article {
+    max-width: 40em;
+     
+}
+
+.glass-box {
+  background: rgba(124, 118, 118, 0.2); /* Semi-transparent white background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  backdrop-filter: blur(5px); /* The key: blurs the background */
+  -webkit-backdrop-filter: blur(5px); /* For Safari compatibility */
+  border: 2px solid rgba(255, 255, 255, 0.188); /* Light, transparent border */
+  padding: 20px; /* Add some padding for content */
+  margin-bottom: 20px;
+}
+
+.art-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp:3;
+}
+

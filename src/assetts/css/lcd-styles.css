@@ -1,0 +1,142 @@
+:root {
+/* dark theame */
+--color1:#028f23;
+--color2:#6d8287;
+--color3:#f95908;
+--color4:#000000;
+--color5:#c9fae3;
+
+--brow-co:var(--color1);
+--hero:var(--color3);
+--foreground:var(--color4);
+--background:var(--color5);
+}
+
+body{
+    color: var(--foreground);
+    background: var(--background);
+    height: 100%;
+    max-width: 1024px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1024px;
+    
+    
+}
+.container-fluid {
+    max-width: 1024px;
+    
+}
+
+.footer {
+    /* background: #9ff930ef; */
+    border-top-color: #066834;
+    border-top-width: .5em;
+    border-top-style:dotted;
+    height: 60px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1{
+    color: var(--hero);
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+    max-width: 70ch;
+}
+
+/* https://clamp.font-size.app/ */
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(1rem, -0.1556rem + 4.9307vw, 3rem);
+    color: var(--brow-co);
+    
+}
+
+.paragraph {
+    max-width: 60em;
+    text-wrap: pretty;
+    width: clamp(400px, 700px, 70%);
+}
+
+.lcd-bg-vav {
+  background-color: red;
+}
+
+/* box-wrap, box-event, box-title, and box-par are connected*/
+.box-wrap {
+    max-width: 40rem;
+    background-color: hsla(143, 77%, 76%, 0.813);
+    border: 1px solid rgba(79, 157, 2, 0.295);
+    border-radius: 16px;
+    padding-right: 1em;
+    margin-bottom: .5em;
+        
+}
+
+.box-event {
+    padding: 1em;
+    margin: 1em;
+}
+
+.box-title {
+    font-size: large;
+}
+
+.box-par {
+    font-size: small;
+    overflow-wrap:normal;
+}
+
+
+
+/* article, glass-box, and art-desc are connected*/
+
+article {
+    max-width: 40em; 
+}
+
+.glass-box {
+  background: rgba(124, 118, 118, 0.2); /* Semi-transparent white background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  backdrop-filter: blur(5px); /* The key: blurs the background */
+  -webkit-backdrop-filter: blur(5px); /* For Safari compatibility */
+  border: 2px solid rgba(255, 255, 255, 0.188); /* Light, transparent border */
+  padding: 20px; /* Add some padding for content */
+  margin-bottom: 20px;
+}
+
+.art-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+/* https://aspectratiocalculator.com/16-9.html */
+.youtube-wrapper {
+    width: 400px;
+    height: 225px;
+}
+/* https://codesignal.com/learn/courses/bootstrap-navbar-mastery/lessons/customizing-navbar-colors-and-styles */
+
+    .custom-navbar {
+        background-color: #faa43cd7; /* Sets custom background color */
+        color: white; /* Sets text color */
+        border-bottom: 5px solid #000; /* Adds a bottom border */
+        padding: 10px; /* Adds padding around the navbar */
+        font-size: 18px; /* Sets font size */
+        font-weight: bold; /* Sets font weight */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+    }
+    
+    .custom-navbar:hover {
+        background-color: #ffb006ed; /* Changes background color on hover */
+    }
