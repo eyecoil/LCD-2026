@@ -1,8 +1,9 @@
 ---
-title: "Lenox Contra Dance Series"
+title: "Resources" 
 layout: lcd.njk
 ---
 
+## Lenox Contra Dance Series
 
 ## Local Dance Websites
 
